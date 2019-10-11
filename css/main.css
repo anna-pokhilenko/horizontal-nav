@@ -1,7 +1,39 @@
 html {
   box-sizing: border-box;
+  background-color: #dbd6cf;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  background-color: #79756f;
+  text-align: center;
+  padding: .5em;
+  border-top::10px;
+  border-color: #595652;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bevan', serif;
+  color: #fff;
+  margin: .3em;
+}
+
+a {
+  text-decoration: none;
+  background-color: #713837;
+  font-family: sans-serif;
+  color: #fff;
+  border-radius: .3em;
+  padding: .6em;
+
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
 }
