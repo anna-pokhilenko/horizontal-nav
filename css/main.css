@@ -8,17 +8,18 @@ html {
   box-sizing: inherit;
 }
 
-header {
+body {
   background-color: #79756f;
   text-align: center;
-  padding: .5em;
-  border-top::10px;
-  border-color: #595652;
+  padding: .4rem;
+  margin: 0em;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
 }
 
 h1 {
   text-align: center;
-  font-family: 'Bevan', serif;
+  font-family: "Bevan", serif;
   color: #fff;
   margin: .3em;
 }
@@ -29,11 +30,22 @@ a {
   font-family: sans-serif;
   color: #fff;
   border-radius: .3em;
-  padding: .6em;
-
+  padding: .75em;
 }
 
 ul li {
   list-style-type: none;
   display: inline-block;
+}
+
+ul {
+  margin: 0em;
+}
+
+li {
+  margin-bottom: 1.3em;
+}
+
+header a:hover {
+  background-color: #f33;
 }
